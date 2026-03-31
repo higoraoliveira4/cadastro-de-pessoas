@@ -34,16 +34,16 @@ Projeto de estudo desenvolvido em Python que permite o cadastro de várias pesso
 ## Exemplo de uso
 
 ------------------------------ CADASTRE UMA PESSOA ------------------------------
-Digite sua idade: 25
-Digite seu sexo (M/F): M
-Quer continuar? [S/N]: S
+- Digite sua idade: 25
+- Digite seu sexo (M/F): M
+- Quer continuar? [S/N]: S
 
 ------------------------------ CADASTRE UMA PESSOA ------------------------------
-Digite sua idade: 17
-Digite seu sexo (M/F): F
-Quer continuar? [S/N]: N
+- Digite sua idade: 17
+- Digite seu sexo (M/F): F
+- Quer continuar? [S/N]: N
 
-O total de pessoas com mais de 18 anos: 1
-O total de homens cadastrados é 1
-E temos 1 mulheres com menos de 20 anos
+- O total de pessoas com mais de 18 anos: 1
+- O total de homens cadastrados é 1
+- E temos 1 mulher com menos de 20 anos
 
