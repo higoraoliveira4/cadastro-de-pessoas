@@ -43,7 +43,7 @@ Projeto de estudo desenvolvido em Python que permite o cadastro de várias pesso
 - Digite seu sexo (M/F): F
 - Quer continuar? [S/N]: N
 - 
--------------------------------------- SAÍDA -------------------------------------
+----------------------------------------- SAÍDA -----------------------------------------
 - O total de pessoas com mais de 18 anos: 1
 - O total de homens cadastrados é 1
 - E temos 1 mulher com menos de 20 anos
