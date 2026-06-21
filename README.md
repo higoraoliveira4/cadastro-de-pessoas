@@ -1,50 +1,44 @@
-# Cadastro de Pessoas em Python
+# Cálculo de Média Escolar em Python
 
-Projeto de estudo desenvolvido em Python que permite o cadastro de várias pessoas, coletando dados como idade e sexo, e exibindo estatísticas ao final da execução.
+Projeto de estudo desenvolvido em Python que calcula a média de duas notas informadas pelo usuário e informa se o aluno foi aprovado, ficou em recuperação ou foi reprovado.
 
 ## Objetivo do projeto
 
-* Praticar conceitos fundamentais da linguagem Python, como:
+Praticar conceitos fundamentais da linguagem Python, como:
 
-  * Entrada de dados pelo terminal
-  * Estruturas de repetição (while)
-  * Estruturas condicionais (if / elif)
-  * Tratamento de erros com try/except
-  * Validação de dados do usuário
-  * Controle de fluxo com break
+- Entrada de dados pelo terminal
+- Conversão de dados com `float`
+- Operadores aritméticos
+- Cálculo de média
+- Estruturas condicionais (`if`, `elif`)
+- Operadores relacionais
+- Formatação de saída com `.format()`
 
 ## Funcionalidades
 
-* Solicita a idade do usuário com validação
-* Solicita o sexo (M/F) com validação
-* Permite continuar ou encerrar o programa
-* Exibe ao final:
-
-  * Total de pessoas com mais de 18 anos
-  * Total de homens cadastrados
-  * Total de mulheres com menos de 20 anos
-* Impede entradas inválidas (como letras na idade)
-
+- Solicita a primeira nota do aluno
+- Solicita a segunda nota do aluno
+- Calcula a média entre as duas notas
+- Exibe a situação final do aluno:
+  - Reprovado para média abaixo de 5.0
+  - Recuperação para média entre 5.0 e 6.9
+  - Aprovado para média igual ou acima de 7.0
+- Mostra a média final formatada com uma casa decimal
 
 ## Tecnologias utilizadas
 
-* Python 3
-* Execução via terminal ou IDE (PyCharm, VS Code, etc.)
+- Python 3
+- Execução via terminal ou IDE (PyCharm, VS Code, etc.)
 
 ## Exemplo de uso
 
------------------------------- CADASTRE UMA PESSOA ------------------------------
-- Digite sua idade: 25
-- Digite seu sexo (M/F): M
-- Quer continuar? [S/N]: S
+```text
+----------------------- CÁLCULO DE MÉDIA -----------------------
 
------------------------------- CADASTRE UMA PESSOA ------------------------------
-- Digite sua idade: 17
-- Digite seu sexo (M/F): F
-- Quer continuar? [S/N]: N
-- 
------------------------------------------ SAÍDA -----------------------------------------
-- O total de pessoas com mais de 18 anos: 1
-- O total de homens cadastrados é 1
-- E temos 1 mulher com menos de 20 anos
+Digite a primeira nota: 6
+Digite a segunda nota: 8
+
+----------------------- RESULTADO -----------------------
+
+Você está aprovado na disciplina, pois sua média foi 7.0!
 
