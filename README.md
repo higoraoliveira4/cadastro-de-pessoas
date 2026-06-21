@@ -1,29 +1,30 @@
-# Cálculo de Média Escolar em Python
+# Cadastro de Pessoas com Validação em Python
 
-Projeto de estudo desenvolvido em Python que calcula a média de duas notas informadas pelo usuário e informa se o aluno foi aprovado, ficou em recuperação ou foi reprovado.
+Projeto de estudo desenvolvido em Python que permite cadastrar várias pessoas, coletando dados como idade e sexo, com validação das entradas informadas pelo usuário.
 
 ## Objetivo do projeto
 
 Praticar conceitos fundamentais da linguagem Python, como:
 
 - Entrada de dados pelo terminal
-- Conversão de dados com `float`
-- Operadores aritméticos
-- Cálculo de média
-- Estruturas condicionais (`if`, `elif`)
-- Operadores relacionais
-- Formatação de saída com `.format()`
+- Estruturas de repetição (`while`)
+- Estruturas condicionais (`if` e `elif`)
+- Tratamento de erros com `try/except`
+- Validação de dados do usuário
+- Uso de contadores
+- Controle de fluxo com `break`
+- Manipulação de strings com `.upper()`
 
 ## Funcionalidades
 
-- Solicita a primeira nota do aluno
-- Solicita a segunda nota do aluno
-- Calcula a média entre as duas notas
-- Exibe a situação final do aluno:
-  - Reprovado para média abaixo de 5.0
-  - Recuperação para média entre 5.0 e 6.9
-  - Aprovado para média igual ou acima de 7.0
-- Mostra a média final formatada com uma casa decimal
+- Solicita a idade da pessoa com validação numérica
+- Solicita o sexo da pessoa com validação para `M` ou `F`
+- Permite continuar ou encerrar o cadastro
+- Exibe ao final:
+  - Total de pessoas com mais de 18 anos
+  - Total de homens cadastrados
+  - Total de mulheres com menos de 20 anos
+- Impede entradas inválidas, como letras no campo de idade ou opções diferentes de `S/N`
 
 ## Tecnologias utilizadas
 
@@ -33,12 +34,18 @@ Praticar conceitos fundamentais da linguagem Python, como:
 ## Exemplo de uso
 
 ```text
------------------------ CÁLCULO DE MÉDIA -----------------------
+------------------------------ CADASTRE UMA PESSOA ------------------------------
 
-Digite a primeira nota: 6
-Digite a segunda nota: 8
+Digite sua idade: 25
+Digite seu sexo (M/F): M
+Quer continuar? [S/N] S
 
------------------------ RESULTADO -----------------------
+------------------------------ CADASTRE UMA PESSOA ------------------------------
 
-Você está aprovado na disciplina, pois sua média foi 7.0!
+Digite sua idade: 17
+Digite seu sexo (M/F): F
+Quer continuar? [S/N] N
 
+O total de pessoas com mais de 18 anos: 1
+O total de homens cadastrados é 1
+E temos 1 mulher com menos de 20 anos
